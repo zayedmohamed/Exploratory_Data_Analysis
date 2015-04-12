@@ -57,7 +57,7 @@ with(doi, {
         legend( "topright", 
                 col=c("black", "red", "blue"), 
                 lty=1, 
-                lwd=2, 
+                lwd=1, 
                 bty="n",
                 legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         plot( Global_reactive_power~Datetime, 
